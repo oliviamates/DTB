@@ -893,11 +893,13 @@ img.check_box_close {
     width: 100%;
     max-width: 250px;
     margin: auto;
+    
 }
 .trial_row_img img {
     width: 100%;
     height: auto;
     display: block;
+    border-radius: 10%
 }
 
 
@@ -1178,17 +1180,19 @@ img.check_box_close {
     }
     .trial_row_img {
         max-width: 100%;
-        margin-left: 5%;
+       
     }
 
 
     .trial_row_img img {
         max-width: 100%;
+        margin-left: 5%;
     }
 
     .home_trial_img_row p {
         max-width: 150px;
         font-size: 13px;
+        margin-right: 5%
     }
 
     .home_trial_img_row h4 {
