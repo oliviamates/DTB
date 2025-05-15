@@ -889,6 +889,7 @@ img.check_box_close {
     height: 30%; 
     border-radius: 10%; 
     margin-left: 30%
+    
 }
 .trial_row_img img {max-width: 75%;}
 .footer_logo_wrap img {
@@ -1419,6 +1420,7 @@ img.check_box_close {
     }
     .home_trial_img_row p {
         max-width: 120px;
+        margin-left: 10px;
 
     }
     .trial_row_img{
@@ -1447,6 +1449,7 @@ img.check_box_close {
 @media(max-width: 450px){
     .home_trial_img_row p {
         font-size: 12px;
+        margin-left: 10px;
     }
     .home_trial_heading_wrap p, .home_sports_txt_wrap p {
         font-size: 13px;
