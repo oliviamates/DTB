@@ -1161,11 +1161,7 @@ img.check_box_close {
         right: 0;
         height: auto;
     }
-     .home_banner_inner {
-    flex-direction: column;
-    text-align: center;
-    gap: 2rem; 
-     }
+
     .have_question_btn_wrap .ques_contact_btn {
         padding: 13px 36px;
         border-radius: 10px;
