@@ -1449,7 +1449,7 @@ img.check_box_close {
 @media(max-width: 450px){
     .home_trial_img_row p {
         font-size: 12px;
-        margin-left: 10px;
+
     }
     .home_trial_heading_wrap p, .home_sports_txt_wrap p {
         font-size: 13px;
