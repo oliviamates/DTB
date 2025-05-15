@@ -737,15 +737,8 @@ a.insta {
     font-size: 40px;
 }
 
-@media only screen and (min-device-width: 400px) {
-  .dashboard {
-    width: 700px; 
-    padding: 0px; 
-    margin: 0px
-  }
-}
 .dashboard {
-    width: 300px; 
+    width: 70%; 
     padding: 0px; 
     margin: 0px
 }
