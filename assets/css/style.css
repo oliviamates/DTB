@@ -279,7 +279,7 @@ html {
     align-items: center;
     justify-content: space-between;
     padding: 15px 0px;
-    width: 100%;
+
 }
 .home_trial_img_row h4 {
     font-size: 20px;
@@ -1409,11 +1409,11 @@ img.check_box_close {
     .home_trial_img_row h4 {
         font-size: 15px;
         max-width: 120px;
-        margin-right: 10px;
+    
     }
     .home_trial_img_row p {
         max-width: 120px;
-        margin-left: 10px;
+
     }
     .trial_row_img{
         max-width: 170px;
