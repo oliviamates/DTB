@@ -736,6 +736,18 @@ a.insta {
     color: #B5B0B0;
     font-size: 40px;
 }
+@media only screen and (min-width: 400px) {
+  .dashboard {
+    width: 700px; 
+    padding: 0px; 
+    margin: 0px
+  }
+}
+.dashboard {
+    width: 300px; 
+    padding: 0px; 
+    margin: 0px
+}
 form#contact_form label {
     color: #B5B0B0;
     font-size: 17px;
