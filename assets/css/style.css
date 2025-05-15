@@ -910,7 +910,9 @@ img.check_box_close {
     }
 }
 @media(max-width: 1024px){
-
+    .home_banner_inner h1 br{
+        display:flex;
+    }
     .home_about_inner {
         flex-direction: column-reverse;
         justify-content: start;
