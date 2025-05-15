@@ -29,6 +29,14 @@ html {
     align-items: center;
     justify-content: space-between;
 }
+.scrollingHeader {
+  position: sticky;
+  top: 0;
+  padding: 10px 16px;
+  background: #c6970e;
+  color: #f1f1f1;
+  text-align: center; 
+}
 .header_menu_wrap ul {
     display: flex;
 }
