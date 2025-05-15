@@ -884,7 +884,7 @@ img.check_box_close {
 .trial_row_img {
     text-align: center;
 }
-.trial_row_img img {max-width: 75%;}
+.trial_row_img img {max-width: 100%;}
 .footer_logo_wrap img {
     max-width: 95px;
 }
