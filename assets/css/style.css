@@ -748,12 +748,7 @@ a.insta {
     padding: 0px; 
     margin: 0px
 }
-.waitlist {
-    text-align: center;
-    background-color: #6f2bac;
-    color: white;
-    width: 85%;
-}
+
 form#contact_form label {
     color: #B5B0B0;
     font-size: 17px;
