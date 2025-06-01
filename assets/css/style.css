@@ -6,6 +6,12 @@
     font-family: nexa-black;
     src: url("../font/Nexa-Black.ttf");
 }
+.intro {
+    text-align: center
+}
+.four {
+    width: 35%
+}
 *{
     margin: 0px;
     padding: 0px;
