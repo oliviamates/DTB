@@ -749,6 +749,7 @@ a.insta {
     margin: 0px
 }
 .waitlist {
+    text-align: center;
     background-color: #6f2bac;
     color: white;
     width: 85%;
