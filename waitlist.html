@@ -24,7 +24,7 @@ label {
 
 input[type=submit] {
   background-color: #5A047E;
-  color: white;
+  color: black;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -37,9 +37,11 @@ input[type=submit]:hover {
 }
 
 .container {
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #f2f2f2;
   padding: 20px;
+  margin: 20px;
+
 }
 
 .col-25 {
@@ -87,6 +89,46 @@ input[type=submit]:hover {
         </div>
     <h2 class="intro">Thank you...ipsum</h2>
     <h2 class="intro">With your sign up....loren ipsum</h2>
+    <div class="container">
+  <form>
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Phone Number</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+    </div>
+  </div>
+    <div class="row">
+    <div class="col-25">
+      <label for="lname">Email Address</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="email" name="email" placeholder="Your email.">
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</div>
     <div class="home_about_inner">
         <div>
             <div>
@@ -150,46 +192,6 @@ input[type=submit]:hover {
             </div>
         </div>
     </div>
-<div class="container">
-  <form>
-  <div class="row">
-    <div class="col-25">
-      <label for="fname">First Name</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="lname">Last Name</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="lname">Phone Number</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="phone" name="phone" placeholder="Your phone number..">
-    </div>
-  </div>
-    <div class="row">
-    <div class="col-25">
-      <label for="lname">Email Address</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="email" name="email" placeholder="Your email.">
-    </div>
-  </div>
-  <br>
-  <div class="row">
-    <input type="submit" value="Submit">
-  </div>
-  </form>
-</div>
 
 </body>
 </html>
