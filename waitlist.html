@@ -90,7 +90,7 @@ input[type=submit]:hover {
     <h2 class="intro">Thank you...ipsum</h2>
     <h2 class="intro">With your sign up....loren ipsum</h2>
     <div class="container">
-  <form action= 'https://script.google.com/macros/s/AKfycby1xhzdbxTlpQ-8bMv-Kv3tCzrbZlrxiJw3KcYqPVxOYs1P6a8dS2YlYGSrRdoYnpAMzg/exec' method="post" id="waitlistForm">
+  <form id="contactForm">
   <div class="row">
     <div class="col-25">
       <label for="fname">First Name</label>
@@ -128,6 +128,12 @@ input[type=submit]:hover {
     <input type="submit" value="Submit">
   </div>
   </form>
+    <div id="successPopup" style="display:none; position:fixed; top:20%; left:50%; transform:translateX(-50%);
+    background-color:#fff; border:1px solid #ccc; padding:20px; box-shadow:0 0 10px rgba(0,0,0,0.3); z-index:1000;">
+    <p>Submission successful!</p>
+    <button onclick="document.getElementById('successPopup').style.display='none'">Close</button>
+  </div>
+</div>
 </div>
     <div class="home_about_inner">
         <div>
@@ -194,4 +200,29 @@ input[type=submit]:hover {
     </div>
 
 </body>
+<script>
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault(); // Prevent page reload
+
+    const form = e.target;
+    const formData = new FormData(form);
+
+    fetch('https://script.google.com/macros/s/AKfycby1xhzdbxTlpQ-8bMv-Kv3tCzrbZlrxiJw3KcYqPVxOYs1P6a8dS2YlYGSrRdoYnpAMzg/exec', {
+      method: 'POST',
+      body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+      if (data.result === 'success') {
+        document.getElementById('successPopup').style.display = 'block';
+        form.reset(); // Optionally reset the form
+      } else {
+        alert('Error: ' + (data.error || 'Unknown error'));
+      }
+    })
+    .catch(err => {
+      alert('Submission failed: ' + err);
+    });
+  });
+</script>
 </html>
